@@ -2,7 +2,7 @@
 
 ## Overview
 
-On an attempt to replicate the UI for my HNG task 3, I am creating a success screen which will be deployed to vercel, and navigated to when you checkout from my app -- the one I am buidling for the Task itself. So this is just an addition to differentiate my submission and stand out, I guess. 
+On an attempt to replicate the UI for my HNG task 3, I am creating a success screen which will be deployed to vercel, and navigated to when you checkout from my app -- the one I am buidling for the Task itself. So this is just an addition to differentiate my submission and stand out, I guess.
 
 ## Screenshot
 
@@ -23,7 +23,7 @@ On an attempt to replicate the UI for my HNG task 3, I am creating a success scr
 1. **Clone the Repository**
 
    ```sh
-   git clone https://github.com/Immadominion/craft-my-plate.git
+   git clone https://github.com/Immadominion/Success-Screen-Web.git
    cd simple_shopping_app
    ```
 
@@ -39,38 +39,13 @@ On an attempt to replicate the UI for my HNG task 3, I am creating a success scr
    flutter run
    ```
 
-<!-- ## Appetize Demo
+<!-- ## Live Preview Link
 
-- You can view a live demo of the app on Appetize.io ([here](would-add-link-here-soon)) -->
+- You can view a live demo of the app on Github Pages ([here](would-add-link-here-soon)) -->
 
 ## Project Structure
 
 ```
-
     lib/
-    |- main.dart
-    |- core/
-    |   |- constants/
-    |   |    |- enum.dart
-    |- data/
-    |   |- model/
-    |   |- controllers/
-    |   |- local/
-    |   |- services/
-    |   |- types/
-    |   |- presentation/
-    |       |- screens/
-    |       |- sections/
-    |       |- widgets/
-    |    |- dashboard.dart/
-    |    |- splash.dart/
-    |- utils/
-    |- firebase_options_super_secret_intelligence.dart
-    |- main.dart
+        |- main.dart
 ```
-
-## Code Overview
-
-### Main file
-
-- Main File (lib/main.dart): Contains the main entry point of the app, sets up navigation, and manages the state of the checkout list.
